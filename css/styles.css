@@ -1,0 +1,189 @@
+:root {
+    --primary-font: 'Roboto', sans-serif;
+    --secondary-font: 'Raleway', sans-serif;
+    --primary-text-color-theme-dark: #FFFFFF;
+    --primary-text-color-theme-light: #212121;
+    --secondary-text-color-theme-light: #757575;
+    --accent-color: #2196F3;
+    --primary-color-logo:#2196F3;
+    --color-logo-header: #000000;
+    --color-logo-footer: #FFFFFF;
+    --color-button:#2196F3;
+    --color-button-accent:#188CE8;
+    --color-container: #2F303A;
+    --color-filter-btn:#F5F4FA;
+    --color-filter-btn-accent:#2196F3;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+body {
+    font-family: var(--primary-font);
+    color:var(--secondary-text-color-theme-light)
+
+}
+.text-color-theme-light {
+    color: var(--primary-text-color-theme-light);
+}
+.logo {
+        font-family: var(--secondary-font);
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: var(--primary-color-logo);
+}
+.color-logo-header{
+    color: var(--color-logo-header);
+}
+.menu-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.19;
+    letter-spacing: 0.02em;
+
+}
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--accent-color);
+}
+.contacts-link {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: var(--secondary-text-color-theme-light);
+}
+.contacts-link:hover,
+.contacts-link:focus {
+        color: var(--accent-color);
+}
+.main-title {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--primary-text-color-theme-dark);
+}
+.modal-btn {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        background: var(--color-button);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        color: var(--primary-text-color-theme-dark);
+        cursor: pointer;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+            background: var(--color-button-accent);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+            border-radius: 4px;
+}
+.hero {
+    background-color:var(--color-container);
+}
+.title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+.features-title{
+    display: none;
+}
+.features-subtitle {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+        
+
+.features-text {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+}
+.team-subtitle {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+
+.team-text{
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+
+.footer {
+        background-color: var(--color-container);
+}
+.color-logo-footer {
+    color: var(--color-logo-footer);
+}
+.address-link{
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: var(--primary-text-color-theme-dark);
+}
+.address-link:hover,
+.address-link:focus {
+    color: var(--accent-color);
+}
+
+.address {
+    font-style: normal;
+}
+/* =========Portfolio =========*/
+.portfolio-title {
+    display: none;
+}
+.filter-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    background: var(--color-filter-btn);
+}
+.filter-btn:hover,
+.filter-btn:focus {
+    color: var(--primary-text-color-theme-dark) ;
+    background: var(--color-filter-btn-accent);    
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+.gallery-subtitle{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.gallery-text {
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}

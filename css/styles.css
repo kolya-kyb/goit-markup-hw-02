@@ -31,6 +31,9 @@ body {
 .text-color-theme-light {
     color: var(--primary-text-color-theme-light);
 }
+.current {
+    color: var(--accent-color);
+}
 .logo {
         font-family: var(--secondary-font);
         font-weight: 700;
@@ -74,6 +77,7 @@ body {
         color: var(--primary-text-color-theme-dark);
 }
 .modal-btn {
+        font-family: inherit;
         font-weight: 700;
         font-size: 16px;
         line-height: 1.88;
@@ -129,7 +133,6 @@ body {
 }
 
 .team-text{
-        font-size: 16px;
         line-height: 1.19;
         text-align: center;
         letter-spacing: 0.03em;
@@ -183,7 +186,6 @@ body {
     letter-spacing: 0.06em;
 }
 .gallery-text {
-    font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
 }
